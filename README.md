@@ -178,7 +178,7 @@ Later, to enhance security:
 Frontend Creation and Server Configuration
 
 
-NSG Configuration (Network Security Group):
+1.NSG Configuration (Network Security Group):
 
 Port 3000: Allowed public access to the frontend server.
 
@@ -186,10 +186,10 @@ Port 22: Allowed access for configuration and management of the server via SSH (
 
 Port 443: Allowed public access for secure HTTP requests.
 
-Server Access:
+2.Server Access:
 Used MobaXterm to access the server remotely using the public IP address and a private key for secure authentication via SSH.
 
-Setup Steps:
+3.Setup Steps:
 Updated the server to ensure it had the latest security patches and updates.
 
 Installed Node.js, a JavaScript runtime environment, which is required for the frontend application.
@@ -206,13 +206,13 @@ Installed React scripts, which provide additional features for the frontend appl
 
 Started the development server, which provides a way to test and develop the application locally.
 
-Application Testing and Deployment:
+4. Application Testing and Deployment:
 
 Verified the application was functioning as expected.
 
 Confirmed that the application was securely connecting to the backend server on port 8080.
 
-         Security Measures
+5. Security Measures
        
 Later, to enhance security:
 
