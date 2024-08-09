@@ -75,9 +75,7 @@ MySQL Workbench was utilized to test and verify the database's integrity and fun
 
 Methodology
 
-
-
-
+![Untitled Diagram drawio](https://github.com/user-attachments/assets/bcaf167f-f9b5-407a-880a-0acea2ad55fd)
 
 
 A clear representation of a secure Online banking Application with compliance to PCI-DSS
@@ -95,9 +93,13 @@ Resource Group Creation: Set up a resource group for organizing and managing rel
 
 Virtual Network: Created a virtual network with three subnets for segregating traffic and enhancing security.
 
+<img width="936" alt="Subnets Virtual Network" src="https://github.com/user-attachments/assets/fc29076c-1834-4691-b29a-0169d76b3787">
+
 Network Security Groups: Configured three Network Security Groups (NSGs) for Database, Backend, and Frontend, each with specific rules to control traffic.
 
 Virtual Machines: Provisioned three Ubuntu virtual machines for different tiers (database, backend, frontend) with data encrypted using SSL/TLS.
+
+<img width="925" alt="Virtual machines" src="https://github.com/user-attachments/assets/8a376eba-1c08-4bad-8dc5-188ddd0898de">
 
 Database Creation and Server Configuration
 
@@ -115,6 +117,8 @@ Used MobaXterm to access the server remotely using the public IP address and a p
    
 Installed MySQL using a Bash script.
 
+<img width="921" alt="bash" src="https://github.com/user-attachments/assets/8bdec53a-4c50-41ba-b7ce-b5ffae26fbc7">
+
 Changed the default root password to a stronger one for security.
 
 Completed the secure installation steps to prevent unauthorized access.
@@ -128,6 +132,8 @@ Configured the MySQL server to allow remote connections by setting the bind addr
 5. Validation and Testing
     
 Tested and validated the setup using MySQL Workbench to ensure the database connection was working correctly.
+
+<img width="933" alt="connected" src="https://github.com/user-attachments/assets/2dc0a84b-a66d-4bc8-aae3-823e004242db">
 
 6. Security Measures
    
@@ -162,10 +168,15 @@ Installed the MySQL Client to test and validate the connection to the MySQL Serv
 
 Configured CORS (Cross-Origin Resource Sharing) security to restrict access to specific domains or IP addresses.
 
+<img width="944" alt="DIGITALWITCH NGBACKEND" src="https://github.com/user-attachments/assets/dcc2c757-0371-4bf8-9d2c-4c8f647ab4b7">
+
+
 4. Application Deployment : 
 Packaged and ran the application using Maven, which compiled and executed the code.
 
-5. Security Measures
+![Screenshot 2024-08-04 060222](https://github.com/user-attachments/assets/3b52b06e-ff5c-4d90-a021-dd077d764a12)
+
+6. Security Measures
    
 Later, to enhance security:
 * Port 22 was closed to prevent SSH access from external networks.
@@ -200,17 +211,24 @@ Cloned the frontend code from a GitHub repository, ensuring the latest version o
 
 Configured the frontend to bind with the backend server on port 8080, allowing communication between the two services.
 
+<img width="941" alt="frontend config backend" src="https://github.com/user-attachments/assets/c25bd0bd-542c-40b6-a7a1-f1565fea1586">
+
 Installed project-specific dependencies using npm, ensuring all required libraries are available.
 
 Installed React scripts, which provide additional features for the frontend application.
 
 Started the development server, which provides a way to test and develop the application locally.
 
+![Screenshot 2024-08-04 133540](https://github.com/user-attachments/assets/6787f832-c521-4283-9344-0d54459b2428)
+
 4. Application Testing and Deployment:
 
 Verified the application was functioning as expected.
 
 Confirmed that the application was securely connecting to the backend server on port 8080.
+
+<img width="954" alt="online banking frontend" src="https://github.com/user-attachments/assets/4aba8772-0f65-495c-8163-048791dedb34">
+
 
 5. Security Measures
        
