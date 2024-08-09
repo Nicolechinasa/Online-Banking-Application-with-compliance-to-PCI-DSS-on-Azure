@@ -99,7 +99,7 @@ Network Security Groups: Configured three Network Security Groups (NSGs) for Dat
 
 Virtual Machines: Provisioned three Ubuntu virtual machines for different tiers (database, backend, frontend) with data encrypted using SSL/TLS.
 
-<img width="925" alt="Virtual machines" src="https://github.com/user-attachments/assets/8a376eba-1c08-4bad-8dc5-188ddd0898de">
+<img width="925" alt="Virtual machines" src="https://github.com/user-attachments/assets/ece612e2-6bde-4b66-8f29-5045bd0ccad2">
 
 Database Creation and Server Configuration
 
