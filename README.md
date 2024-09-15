@@ -75,7 +75,7 @@ MySQL Workbench was utilized to test and verify the database's integrity and fun
 
 Methodology
 
-![Untitled Diagram drawio](https://github.com/user-attachments/assets/bcaf167f-f9b5-407a-880a-0acea2ad55fd)
+![online banking Application png drawio](https://github.com/user-attachments/assets/ed72461c-7af7-47db-b7ce-7f695ed7f8dd)
 
 
 A clear representation of a secure Online banking Application with compliance to PCI-DSS
