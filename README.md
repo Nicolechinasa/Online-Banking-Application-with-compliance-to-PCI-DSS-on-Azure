@@ -11,7 +11,7 @@ Role: Cloud Security Engineer
 
 Description:
 
-I spearheaded the development of a cutting-edge online banking application, leveraging a three-tier architecture to ensure PCI-DSS compliance. We carefully crafted a scalable and secure environment, integrating Azure Virtual Machines, Azure Network Security Groups, and Azure Virtual Network to provide a robust foundation. I oversaw the design and implementation of the frontend, utilizing Node.js, React.js, and JavaScript to deliver a seamless user experience. 
+This is the development of a cutting-edge online banking application, leveraging a three-tier architecture to ensure PCI-DSS compliance. We carefully crafted a scalable and secure environment, integrating Azure Virtual Machines, Azure Network Security Groups, and Azure Virtual Network to provide a robust foundation. I oversaw the design and implementation of the frontend, utilizing Node.js, React.js, and JavaScript to deliver a seamless user experience. 
 
 We developed a robust backend using Java, JDK 17, and Maven, and implemented a secure database management system using MySQL 8.0. Throughout the project, I ensured adherence to the highest security standards, utilizing SonarCloud for code analysis, conducting thorough code reviews, and performing regular security audits. By implementing multiple measures to protect user data and maintain the integrity of the application, we achieved a secure and compliant online banking solution.
 
